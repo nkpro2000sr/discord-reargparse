@@ -3,8 +3,8 @@ name = "discord-reargparse"
 version = "0.0.1"
 description = "RegEx based argument parsing for commands in discord.py"
 license = "MIT"
-authors = ["nkpro2000sr <srnaveen2k@yahoo.com>"]
-maintainers = ["nkpro2000sr <srnaveen2k@yahoo.com>"]
+authors = ["Naveen S R <srnaveen2k@yahoo.com>"]
+maintainers = ["Naveen S R <srnaveen2k@yahoo.com>"]
 readme = "README.md"
 repository = "https://github.com/nkpro2000sr/discord-reargparse"
 packages = [
@@ -23,6 +23,7 @@ dpytest = "^0.0.20"
 
 [tool.black]
 line-length = 99
+exclude = "examples/*"
 
 [build-system]
 requires = ["poetry>=0.12"]
